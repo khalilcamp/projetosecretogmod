@@ -10,14 +10,39 @@
     <script defer src="./script.js"></script>
 </head>
 <body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="./index.html">Home</a>
+            <a class="cabecalho__menu__link__dois" href="./index.html">Gamemodes</a>
+        </nav>
+    </header>
     <main>
-        <button id="playAudioButton">Clique para reproduzir áudio</button>
-        <div>
-            <h1 class="landing animation">Em Breve...</h1>
+        <div class="glitch">
+            <img src="laat.jpg" alt="">
+            <div class="glitch__layers">
+                <div class="glitch__layer"></div>
+                <div class="glitch__layer"></div>
+                <div class="glitch__layer"></div>
+            </div>
+        </div>
+        <div class="glitchdois">
+            <img src="battle.jpg" alt="">
+            <div class="glitch__layers__dois">
+                <div class="glitch__layer__dois"></div>
+                <div class="glitch__layer__dois"></div>
+                <div class="glitch__layer__dois"></div>
+            </div>
         </div>
         <div class="textos__principais">
             <h2 class="textos__principais__um animation">15 missões como nunca antes vistas.</h2>
         </div>
+        <section>
+            <span class="loader"></span>
+        </section>
     </main>
+    <footer class="rodape">
+        <audio id="audio" src="./clique.mp3"></audio>
+        <button class="rodape__butao" id="playAudioButton">Clique para reproduzir áudio</button>
+    </footer>
 </body>
 </html>
